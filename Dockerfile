@@ -23,7 +23,6 @@ RUN groupadd fileusers && \
     usermod -aG fileusers user2 && \
     usermod -aG user1 admin && \
     usermod -aG user2 admin && \
-    usermod -aG root admin && \
     chown admin:fileusers /data/shared && \
     chmod 770 /data/shared
 
